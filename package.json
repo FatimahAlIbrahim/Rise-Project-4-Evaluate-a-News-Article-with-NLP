@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FatimahAlIbrahim/Rise-Project-4-Evaluate-a-News-Article-with-NLP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FatimahAlIbrahim/Rise-Project-4-Evaluate-a-News-Article-with-NLP/issues"
+  },
+  "homepage": "https://github.com/FatimahAlIbrahim/Rise-Project-4-Evaluate-a-News-Article-with-NLP#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
+}
