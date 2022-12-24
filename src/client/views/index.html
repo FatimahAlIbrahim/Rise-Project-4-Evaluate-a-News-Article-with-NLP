@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>Test</title>
+    <title>Evaluate a News Article with Natural Language Processing</title>
     <!--<script type="text/javascript" src="/js/nameChecker.js"></script>
         <script type="text/javascript" src="/js/formHandler.js"></script>
         <link rel="stylesheet" href="/styles/resets.css">
@@ -12,21 +12,17 @@
         <link rel="stylesheet" href="/styles/footer.css">-->
   </head>
   <body>
-    <header>
-      <div class="">Logo</div>
-      <div class="">navigation</div>
-    </header>
     <main>
+      <p id="title">Evaluate a News Article with Natural Language Processing</p>
       <section>
         <form class="" onsubmit="return Client.handleSubmit(event)">
-          <input
-            id="name"
+          <textarea
+            id="url"
             type="text"
             name="input"
             value=""
-            onblur="onBlur()"
-            placeholder="Name"
-          />
+            placeholder="News Article URL"
+          ></textarea>
           <input
             type="submit"
             name=""
@@ -37,12 +33,14 @@
         </form>
       </section>
       <section>
-        <strong>Form Results:</strong>
-        <div id="results"></div>
+        <strong id="result-title">Evaluation Results:</strong>
+        <div id="results">
+          <p>Polarity: <span id="polarity"></span></p>
+          <p>Irony: <span id="irony"></span></p>
+          <p>Agreement: <span id="agreement"></span></p>
+          <p>Subjectivity: <span id="subjectivity"></span></p>
+        </div>
       </section>
     </main>
-    <footer>
-      <p>This is a footer</p>
-    </footer>
   </body>
 </html>

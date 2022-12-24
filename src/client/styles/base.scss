@@ -2,13 +2,42 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: sans-serif;
 }
 
 main {
     flex: 2;
+    border: darkblue solid;
+    width: 80%;
+    margin: 1em auto;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: rgba(240, 248, 255, 0.527);
 }
 
 section {
     max-width: 800px;
     margin: 50px auto;
+}
+
+#results p span {
+    text-transform: capitalize;
+}
+
+#results {
+    font-size: 1.15em;
+    line-height: 1.5em;
+}
+
+#result-title {
+    font-size: 1.5em;
+    border-bottom: darkblue solid;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#title {
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 1.75em;
 }
