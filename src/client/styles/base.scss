@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: sans-serif;
+    background-color: whitesmoke;
 }
 
 main {
@@ -12,7 +13,7 @@ main {
     margin: 1em auto;
     border-radius: 1em;
     padding: 1em;
-    background-color: rgba(240, 248, 255, 0.527);
+    background-color: rgb(240, 248, 255);
 }
 
 section {
